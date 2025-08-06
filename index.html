@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>Languge Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>language Translator</h2>
+    <textarea id="inputText"
+placeholder="Enter text..."></textarea>
+
+    <div class="dropdowns">
+      <label>form:
+        <select id="sourceLang">
+          <option value="en">english</
+option>
+          <option value="fr">French</option>
+          <option value="es">Spanish</
+option>
+          <option value="hi">Hindi</option>
+        </select>
+      </label>
+
+      <label>To:
+        <select id="targetLang">
+          <option value="hi">Hindi</option>
+          <option value="en">english</
+option>
+          <option value="fr">French</option>
+          <option value="es">Spanish</
+option>
+        </select>
+      </label>
+    </div>
+
+    <button
+oneclick="translateText()">Translate</button>
+     <div id="outputText">Your translation
+will appear here...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+ 
